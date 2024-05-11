@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'student-image': "url('../public/image.png')"
+      },
       animation: {
         text: 'text 5s ease infinite',
       },

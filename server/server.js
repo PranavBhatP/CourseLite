@@ -25,6 +25,7 @@ app.use('/', require('./routes/enrolledCourseRoutes'));
 app.use('/courses', require('./routes/courseRoutes'));
 app.use('/students', require('./routes/studentRoutes'));
 app.use('/faculty', require('./routes/facultyRoutes'));
+app.use('/admin', require('./routes/adminRoutes'));
 app.all('*',(req,res)=>{
     res.sendFile(path.join(__dirname, 'views', '404.html'));
 })

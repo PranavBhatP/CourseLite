@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import axios from 'axios';
-import { useNavigate , Navigate} from 'react-router-dom';
+import { useNavigate , Navigate } from 'react-router-dom';
+import { MdPerson } from "react-icons/md";
 export default function Login({role}) {  
   const [studentID, setStudentID] = useState('');
   const [isLoggedIn, setIsLoggedIn] = useState('');
@@ -30,7 +31,8 @@ export default function Login({role}) {
     <main className = "flex items-center justify-center bg-black h-screen">
         <div className="bg-gray-500 flex flex-col border-gray-700 backdrop-blur-lg justify-center lg:w-3/5 mx-auto rounded-lg my-52 bg-opacity-20 lg:h-3/5 py-10">
           <div className="sm:mx-auto sm:w-4/5 sm:max-w-sm lg:w-full lg:h-full">
-            <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-white">
+            <MdPerson className='text-white text-9xl text-right mx-32'/>
+            <h2 className="text-center text-2xl font-bold leading-9 tracking-tight text-white">
               Sign in to your {role} account.
             </h2>
           </div>
@@ -49,7 +51,7 @@ export default function Login({role}) {
                     value = {studentID}
                     required
                     onChange = {(e) => setStudentID(e.target.value)}
-                    className="block w-full rounded-md border-0 py-1.5 px-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 py-1.5 px-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>

@@ -5,7 +5,7 @@ import Content from './Content'
 const Home = () => {
   return (
     <>
-      <div className='w-screen bg-black'>
+      <div className='w-screen h-full bg-black'>
         <Navbar/>
         <Content />
       </div>

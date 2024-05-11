@@ -11,6 +11,6 @@
 - [X] Faculty should also be able to login(Name, Email, *Staff Id, *Password) --> staffId and password are the main parameters for login.
 - [X] Faculty side should be able to access and add the courses under them as well as the students enrolled in the courses. 
 - [X] Admin should also be able to login and the admin dashboard can be used to edit/delete the courses as well as edit/delete students enrolled.
-- [] Only admin can access the Student and Faculty Settigns.
-- [ ] Only admin can create new course and new student logins
-- [ ] Desktop mode is most important.
+- [X] Only admin can access the Student and Faculty Settigns.
+- [X] Only admin can create new course and new student logins
+- [X] Desktop mode is most important.
