@@ -6,7 +6,7 @@
 - [X] Provide a welcome page with a list of all course and the access student's course cart.
 - [X] Display the current user, role and the enrolled courses.
 - [X] Provide a logout option.
-- [X] Each course has a course code, course title, instructor(faculty), Schedule, Credits.
+- [X] Each course has a course code, course title, instructor(faculty), Credits.
 - [X] These course and their details can be altered by the faculty and administrators.
 - [X] Faculty should also be able to login(Name, Email, *Staff Id, *Password) --> staffId and password are the main parameters for login.
 - [X] Faculty side should be able to access and add the courses under them as well as the students enrolled in the courses. 
